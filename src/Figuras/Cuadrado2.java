@@ -4,8 +4,8 @@ public class Cuadrado2 extends Figuras{
     
     @Override
     public void imprimir(){
-        for(int i = 0; i <= n; i++){
-            for(int j = 0; j <= n; j++){
+        for(int i = 0; i < n; i++){
+            for(int j = 0; j < n; j++){
                 
                 if(i == 0 || i == n-1){
                     System.out.print("*");
@@ -13,7 +13,7 @@ public class Cuadrado2 extends Figuras{
                     if(j == 0 || j == n-1){
                         System.out.print("*");
                     } else {
-                        System.out.println(" ");
+                        System.out.print(" ");
                     }
                 }
             }
